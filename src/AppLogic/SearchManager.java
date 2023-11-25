@@ -35,6 +35,7 @@ public class SearchManager {
         LocalDate answerDate = LocalDate.parse(answer, DecisionApp.formatter);
         FilterLogic.filterTest(decisionList, (decision -> decision.date.isEqual(answerDate)));
     }
+
     static void searchByComponent(List<Decision> decisionList, Scanner findScanner, String printText){
         String answer = "";
 

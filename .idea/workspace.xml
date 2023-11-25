@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/Decision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/FilterLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/InputValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" afterDir="false" />
+    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="Almost the end. All works">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +50,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +75,25 @@
       <updated>1700061154242</updated>
       <workItem from="1700061155264" duration="8415000" />
       <workItem from="1700426343721" duration="3402000" />
+      <workItem from="1700925572701" duration="206000" />
     </task>
+    <task id="LOCAL-00001" summary="Almost the end. All works">
+      <option name="closed" value="true" />
+      <created>1700469865785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700469865786</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Almost the end. All works">
+      <option name="closed" value="true" />
+      <created>1700469876181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700469876181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Almost the end. All works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost the end. All works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
