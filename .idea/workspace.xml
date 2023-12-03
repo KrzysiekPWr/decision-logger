@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="Almost the end. All works">
+    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="Commit before separating the console&amp;input from the app logic">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/EditManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/ConsoleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/IVisualManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decisions.ser" beforeDir="false" afterPath="$PROJECT_DIR$/decisions.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AppManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/Decision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Decision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/DecisionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/FilterLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/FilterLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SearchManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +28,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -35,30 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Krzysztof Kiler/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "last_opened_file_path": "C:/Users/Krzysztof Kiler/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="View" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DecisionLog" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="AppLogic.Main" />
+      <option name="MAIN_CLASS_NAME" value="Controllers.Main" />
       <module name="Lab3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,7 +96,11 @@
       <updated>1700061154242</updated>
       <workItem from="1700061155264" duration="8415000" />
       <workItem from="1700426343721" duration="3402000" />
-      <workItem from="1700925572701" duration="206000" />
+      <workItem from="1700925572701" duration="11453000" />
+      <workItem from="1701006604654" duration="18917000" />
+      <workItem from="1701113189254" duration="3688000" />
+      <workItem from="1701641143306" duration="49000" />
+      <workItem from="1701641201287" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="Almost the end. All works">
       <option name="closed" value="true" />
@@ -93,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700469876181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit before separating the console&amp;input from the app logic">
+      <option name="closed" value="true" />
+      <created>1700925834917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700925834917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Almost the end. All works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost the end. All works" />
+    <MESSAGE value="Commit before separating the console&amp;input from the app logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit before separating the console&amp;input from the app logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,5 +157,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
