@@ -11,13 +11,14 @@ public class ConsoleManager implements IVisualManager {
         return componentFieldSize;
     }
 
+    public String getCommentFieldSize(){
+        return commentFieldSize;
+    }
+
     public String getPersonFieldSize() {
         return personFieldSize;
     }
 
-//    public String getCommentFieldSize() {
-//        return commentFieldSize;
-//    }
     private String componentFieldSize = "15";
     private String personFieldSize = "15";
     private String commentFieldSize = "40";

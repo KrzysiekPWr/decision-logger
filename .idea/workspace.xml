@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lab3:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="Commit before separating the console&amp;input from the app logic">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/EditManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/InputProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/ConsoleManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/IVisualManager.java" afterDir="false" />
+    <list default="true" id="fda56d46-9dd1-4972-9ff9-7b0dc2a1769a" name="Changes" comment="the end">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lab3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decisions.ser" beforeDir="false" afterPath="$PROJECT_DIR$/decisions.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/Decision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Decision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/DecisionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/DecisionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/FilterLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/FilterLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/InputValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppLogic/SearchManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SearchManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/DecisionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/DecisionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/EditManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/ConsoleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/ConsoleManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,8 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-21",
-    "last_opened_file_path": "C:/Users/Krzysztof Kiler/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +99,13 @@
       <workItem from="1701006604654" duration="18917000" />
       <workItem from="1701113189254" duration="3688000" />
       <workItem from="1701641143306" duration="49000" />
-      <workItem from="1701641201287" duration="1100000" />
+      <workItem from="1701641201287" duration="1503000" />
+      <workItem from="1701678802477" duration="3358000" />
+      <workItem from="1701881087264" duration="88000" />
+      <workItem from="1702221389770" duration="2934000" />
+      <workItem from="1702229758922" duration="578000" />
+      <workItem from="1702230695324" duration="9000" />
+      <workItem from="1721759099645" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="Almost the end. All works">
       <option name="closed" value="true" />
@@ -126,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700925834917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="the end">
+      <option name="closed" value="true" />
+      <created>1701642356708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701642356708</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Almost the end. All works" />
     <MESSAGE value="Commit before separating the console&amp;input from the app logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit before separating the console&amp;input from the app logic" />
+    <MESSAGE value="the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

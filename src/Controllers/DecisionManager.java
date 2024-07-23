@@ -56,7 +56,7 @@ public class DecisionManager {
             else if(InputValidator.isPositiveNumber(importanceString)) importance = Integer.parseInt(importanceString);
         }
 
-        while(comment.isBlank() || !InputValidator.isValidLength(comment, consoleManager.getPersonFieldSize()))
+        while(comment.isBlank() || !InputValidator.isValidLength(comment, consoleManager.getCommentFieldSize()))
         {
             consoleManager.showPrompts("ASK_COMMENT");
             comment = InputProcessor.takeInput();
